@@ -1,0 +1,54 @@
+unit uprincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,umacaco, umemo;
+
+type
+  Tprincipal = class(TForm)
+    Button1: TButton;
+    nam1: TEdit;
+    Label1: TLabel;
+    nam2: TEdit;
+    Label2: TLabel;
+    Label3: TLabel;
+    memor: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    Label4: TLabel;
+    procedure Button1Click(Sender: TObject);
+    procedure memorClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  principal: Tprincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure Tprincipal.Button1Click(Sender: TObject);
+begin
+  macacop.nomep1.Caption:=nam1.Text;
+  macacop.nomep2.Caption:=nam2.Text;
+  principal.Visible:=false;
+  macacop.ShowModal;
+  principal.Visible:=true;
+ // macacop.
+end;
+procedure Tprincipal.memorClick(Sender: TObject);
+begin
+  umemoria.Label1.Caption:=nam1.Text;
+  umemoria.Label2.Caption:=nam2.Text;
+  principal.Visible:=false;
+   umemoria.ShowModal;
+  principal.Visible:=true;
+end;
+
+end.

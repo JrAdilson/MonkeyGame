@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/05/22 13:54:36.000.160,=C:\Users\Junior\Desktop\TrabalhoDelphi\Unit1.pas</Transaction>
+    <Transaction>2022/05/22 13:54:44.000.907,C:\Users\Junior\Desktop\TrabalhoDelphi\Unit1.pas=C:\Users\Junior\Desktop\TrabalhoDelphi\uforca.pas</Transaction>
+    <Transaction>2022/05/22 13:54:44.000.907,C:\Users\Junior\Desktop\TrabalhoDelphi\Unit1.dfm=C:\Users\Junior\Desktop\TrabalhoDelphi\uforca.dfm</Transaction>
+    <Transaction>2022/05/22 18:26:02.000.516,=C:\Users\Junior\Desktop\TrabalhoDelphi\Unit2.pas</Transaction>
+    <Transaction>2022/05/22 18:26:09.000.310,C:\Users\Junior\Desktop\TrabalhoDelphi\usobre.pas=C:\Users\Junior\Desktop\TrabalhoDelphi\Unit2.pas</Transaction>
+    <Transaction>2022/05/22 18:26:09.000.310,C:\Users\Junior\Desktop\TrabalhoDelphi\usobre.dfm=C:\Users\Junior\Desktop\TrabalhoDelphi\Unit2.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
